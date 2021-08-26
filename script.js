@@ -11,7 +11,7 @@ function isRectangularTriangle(x1, x2, x3) {
   //Math.pow(liczba1, liczba2)
 }
 
-isRectangularTriangle(8,5,6);
+isRectangularTriangle(4,5,6);
 
 /*const cond1 = isRectangularTriangle(3, 4, 5);
 const cond2 = isRectangularTriangle(4, 3, 5);

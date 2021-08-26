@@ -7,11 +7,18 @@ function isRectangularTriangle(x1, x2, x3) {
  
   const minimum = Math.min(...nrs);
 
+  const nrs2 = nrs.filter(word => word !== minimum);
+
+  const minimum2 = Math.min(...nrs2);
+
   console.log(minimum)
+  console.log(minimum2)
+
+  minimum
   //Math.pow(liczba1, liczba2)
 }
 
-isRectangularTriangle(4,5,6);
+isRectangularTriangle(8,7,6);
 
 /*const cond1 = isRectangularTriangle(3, 4, 5);
 const cond2 = isRectangularTriangle(4, 3, 5);
